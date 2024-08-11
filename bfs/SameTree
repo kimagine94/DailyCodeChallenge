@@ -32,6 +32,6 @@ class Solution {
             qq.offer(node2.left);
             qq.offer(node2.right);
         }
-        return pq.isEmpty() && qq.isEmpty();
+        return true;
     }
 }
